@@ -7,6 +7,19 @@ const adicao = document.querySelector('.adicao')
 const subtracao = document.querySelector('.subtracao')
 const multiplicacao = document.querySelector('.multiplicacao')
 const divisao = document.querySelector('.divisao')
+
+
 //CRIA A FUNÇÃO CALCULAR
+function calcular(){
+    const resultado = numero1.value + numero2.value
+    alert("qualquercoisa")
+    
+}
+
 
 //ADICIONA ESCUTAR EVENTOS
+
+btnCalcular.addEventListener('click', function(){
+    calcular()
+})
+
